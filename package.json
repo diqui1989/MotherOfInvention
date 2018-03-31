@@ -1,0 +1,23 @@
+{
+    "name": "gulp_web_basic",
+    "version": "0.1.0",
+    "description": "Basic web page build",
+    "authors": [
+        "ergokira"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ergokira/gulp_web_basic",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ergokira/gulp_web_basic.git"
+    },
+    "scripts": {},
+    "dependencies": {
+        "bootstrap": "^4.0.0"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.18.6",
+        "gulp": "^3.9.1",
+        "gulp-sass": "^2.3.2"
+    }
+}
