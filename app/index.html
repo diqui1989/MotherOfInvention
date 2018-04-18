@@ -8,11 +8,20 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <link href="./css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/fontello.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <script defer src="./js/fontawesome-all.min.js"></script>
+
+
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,331 +31,1107 @@
     <![endif]-->
 </head>
 
-
-
 <body id="home">
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-        <div class="container">
-            <a href="index.html " class="navbar-brand ">XXXXX</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+    <div class="wrapper container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-collapse-sm navbar-collapse-md  bg-dark navbar-dark fixed-top">
+            <div class="container inline-block d-flex flex-row">
+                <a href="index.html" class="navbar-brand logo d-none d-md-block"><span>Tourism Agency</span></a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                       <span class="navbar-toggler-icon"></span>
               </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-
-                    <li class="nav-item ">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#explore-head-setion" class="nav-link">Explore</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#create-head-section" class="nav-link">Create</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#share-head-section" class="nav-link">Share</a>
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-    </nav>
-
-
-    <!--HOME-->
-
-    <header id="home-section">
-        <div class="dark-overlay">
-            <div class="home-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 d-none d-lg-block">
-                            <h1 class="display-4">Build <strong>social profiles</strong> and gain revenue profits</h1>
-                            <div class="d-flex flex-row">
-
-                                <div class="p-4 align-self-start">
-                                    <i class="icon-ok"></i>
-                                </div>
-                                <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                            </div>
-                            <div class="d-flex flex-row">
-
-                                <div class="p-4 align-self-start">
-                                    <i class="icon-ok"></i>
-                                </div>
-                                <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                            </div>
-                            <div class="d-flex flex-row">
-
-                                <div class="p-4 align-self-start">
-                                    <i class="icon-ok"></i>
-                                </div>
-                                <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="card bg-primary text-center card-form">
-                                <div class="card-body">
-                                    <h3>sign up today</h3>
-                                    <p>please fill out to register</p>
-                                    <form>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control form-control-lg" placeholder="Username">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="email" class="form-control form-control-lg" placeholder="Email">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="Password" class="form-control form-control-lg" placeholder="Password">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="Confirm Password" class="form-control form-control-lg" placeholder="Confirm Password">
-                                        </div>
-                                        <input type="submit" value="submit" class="btn btn-outline-light btn-block">
-                                    </form>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </header>
-
-    <!--EXPLORE HEAD-->
-
-    <section class="explore-head-section">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="p-5">
-                        <h1 class="display-4">Explore</h1>
-                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam voluptatibus quia atque aperiam eaque cupiditate possimus fugit repudiandae non quod.</p>
-                        <a href="#" class="btn btn-outline-secondary ">Find out More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--EXPLORE SECTION-->
-
-    <section id="explore-section" class="bg-light text-muted py-5">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./img/agency.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h3>Explore and Connect</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate dolores praesentium perspiciatis cumque, corrupti aliquid quia beatae deserunt mollitia, provident delectus omnis totam officia rerum ut? Ducimus, non porro.</p>
-
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <!--CREATE HEAD-->
-
-    <section id="create-head-section" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="p-5">
-                        <h1 class="display-4">Create</h1>
-                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam voluptatibus quia atque aperiam eaque cupiditate possimus fugit repudiandae non quod.</p>
-                        <a href="#" class="btn btn-outline-light ">Find out More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--EXPLORE SECTION-->
-    <!--EXPLORE SECTION-->
-
-    <section id="create-section" class="py-5">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>Couple Packages</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate dolores praesentium perspiciatis cumque, corrupti aliquid quia beatae deserunt mollitia, provident delectus omnis totam officia rerum ut? Ducimus, non porro.</p>
-
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="./img/couple.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--SHARE HEAD-->
-
-    <section class="share-head-section" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="p-5">
-                        <h1 class="display-4">Share</h1>
-                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam voluptatibus quia atque aperiam eaque cupiditate possimus fugit repudiandae non quod.</p>
-                        <a href="#" class="btn btn-outline-light ">Find out More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--SHARE SECTION-->
-
-    <section id="share-section" class="bg-light text-muted py-5">
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./img/sha.jpg" alt="" class="img-fluid mb-3 rounded-circle">
-                </div>
-                <div class="col-md-6">
-                    <h3>Share the moments!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate dolores praesentium perspiciatis cumque, corrupti aliquid quia beatae deserunt mollitia, provident delectus omnis totam officia rerum ut? Ducimus, non porro.</p>
-
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-
-                    <div class="d-flex flex-row">
-
-                        <div class="p-4 align-self-start">
-                            <i class="icon-ok"></i>
-                        </div>
-                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Main footer-->
-
-    <footer id="main-footer" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="oy-4">
-                        <h1 class="h3">XXXXX</h1>
-                        <p>copyright &copy;2017</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact us</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--CONTACT MODAL-->
-
-    <div class="modal fade text-dark" id="contactModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="contactModalTitle">
-                        Contact us
-                    </h5>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Name</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="name">Email</label>
-                            <input type="email" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Name</label>
-                            <textarea class="form-control"></textarea>
-                        </div>
-
+                <div class="containerbox d-flex flex-row inline-block">
+                    <form class="searchbox">
+                        <input type="search" placeholder="Search" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                        <input type="submit" class="searchbox-submit" value="GO">
+                        <span class="searchbox-icon icon-search"></span>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary btn-block">Submit</button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item ">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown bg-dark">
+                                <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Free Quote
+                                      </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#create-head-section" class="nav-link">Create</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#share-head-section" class="nav-link">Share</a>
+                        </li>
+
+                    </ul>
+
                 </div>
 
             </div>
+        </nav>
+
+
+
+        <div id="carouselExampleIndicators" class="maincar carousel slide d-none d-md-block" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img class="d-block img-fluid h-100 w-100" src="./img/ballena.jpg" alt="First slide">
+                    <div class="car1 carousel-caption h-100 d-none d-md-block">
+                        <div class="letter1 mt-4 d-flex flex-column">
+
+                            <h1>Our Commitment <small>to you</small></h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur earum quaerat deleniti. Dolorum magni qui aut adipisci minima veritatis, cumque laboriosam facilis. Ad tenetur reprehenderit vitae necessitatibus quidem nihil
+                                inventore?
+                            </p>
+
+                            <div class="letter2 alert alert-info alert-dismissible fade show">
+                                <h4 class="alert-heading">Standard Checkups</h4>
+                                <p class="mb-2">Lorem ipsum dolor sit ametadipisicing elit. Quo, asperiores quisquam. Consequuntur ipsum eveniet ipsa..
+                                </p>
+                                <a class="alert-link" href="#">More Info</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+
+                    <img class="d-block img-fluid h-100 w-100" src="./img/volcan2.jpg" alt="Second slide">
+                    <div class="car2 carousel-caption d-none d-md-block">
+
+                        <div class="letter22">
+                            <h1> Lorem ipsum dolor </h1>
+                            <p>Lorem ipsum, dolor sit amet <a class="tool1" href="#" data-toggle="tooltip" data-placement="bottom" title=" example example example example ">consectetur </a> adipisicing elit. Pariatur earum quaerat deleniti. Dolorum magni
+                                qui aut adipisci minima veritatis, cumque laboriosam facilis. Ad tenetur reprehenderit vitae necessitatibus quidem nihil inventore?
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <img class="d-block img-fluid h-100 w-100" src="./img/sloth.jpg" alt="Third slide">
+                    <div class="car3 carousel-caption d-none d-md-block">
+                        <div class="letter3 mt-4 d-flex flex-column">
+
+                            <h1>Our Commitment <small>to you</small></h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur earum quaerat deleniti. Dolorum magni qui aut adipisci minima veritatis, cumque laboriosam facilis. Ad tenetur reprehenderit vitae necessitatibus quidem nihil
+                                inventore?
+                            </p>
+
+                            <div class="letter33 alert alert-info alert-dismissible fade show">
+                                <h4 class="alert-heading">Standard Checkups</h4>
+                                <p class="mb-2">Lorem ipsum dolor sit ametadipisicing elit. Quo, asperiores quisquam. Consequuntur ipsum eveniet ipsa..
+                                </p>
+                                <a class="alert-link" href="#">Take  a look</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carcon carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class=" carcon carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!--HOME-->
+
+        <header id="home-section">
+            <div class="dark-overlay">
+                <div class="home-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 d-none d-lg-block">
+                                <h1 class="display-4">Take a look a <strong>our installations</strong> and choose</h1>
+                                <div class="d-flex flex-row">
+                                    <img src="./img/cabb.jpg" type="button" class="btn p-0 mt-4" data-toggle="modal" data-target="#cab1">
+                                    <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
+
+                                    <div class="modal fade" id="cab1">
+                                        <div class="modal-dialog bg-dark">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg-dark">
+                                                    <h5 class="modal-title">CAB1</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <!--modal header-->
+
+                                                <div class="modal-body bg-dark">
+                                                    <div><img src="./img/cabb.jpg" class="img-fluid h-100 w-100">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quam, nostrum autem quaerat dicta officia!</p>
+                                                    </div>
+                                                </div>
+                                                <!--modal body-->
+                                                <div class="modal-footer bg-dark">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-row">
+
+                                    <img src="./img/cabb33.jpg" type="button" class="btn p-0 mt-4 " data-toggle="modal" data-target="#cab2">
+                                    <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
+
+                                    <div class="modal fade " id="cab2">
+                                        <div class="modal-dialog bg-dark">
+                                            <div class="modal-content">
+                                                <div class="modal-header bg-dark">
+                                                    <h5 class="modal-title">CAB1</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                </div>
+                                                <!--modal header-->
+
+                                                <div class="modal-body bg-dark">
+                                                    <div><img src="./img/cabb33.jpg" class="img-fluid h-100 w-100">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quam, nostrum autem quaerat dicta officia!</p>
+                                                    </div>
+                                                </div>
+                                                <!--modal body-->
+                                                <div class="modal-footer bg-dark">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
 
 
+                                <div class="d-flex flex-row">
+
+                                    <img src="./img/cabbb.jpg" type="button" class="btn p-0 mt-4" data-toggle="modal" data-target="#cab3">
+                                    <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque itaque, quidem quaerat voluptate provident officiis!</div>
+
+                                    <div class="modal fade " id="cab3">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content bg-dark">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">CAB1</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden="true ">&times;</span>
+                                                        </button>
+                                                </div>
+                                                <!--modal header-->
+
+                                                <div class="modal-body">
+                                                    <div><img src="./img/cabbb.jpg" class="img-fluid h-100 w-100">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam quam, nostrum autem quaerat dicta officia!</p>
+                                                    </div>
+                                                </div>
+                                                <!--modal body-->
+                                                <div class="modal-footer bg-dark">
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="card bg-primary text-center card-form ">
+                                    <div class="card-body ">
+                                        <h3>Get a Quote</h3>
+                                        <p>We will get back to you</p>
+                                        <form>
+                                            <div class="form-group ">
+                                                <input type="text " class=" name form-control form-control-lg " placeholder="Name" data-toggle="tooltip" title="Full Name" data-content="Full Name">
+                                            </div>
+                                            <div class="form-group ">
+                                                <input type="email " class=" form-control form-control-lg " placeholder="Email " data-toggle="tooltip" title="E-mail" data-content="email">
+                                            </div>
+                                            <div class="form-group ">
+                                                <input type="text " class=" form-control form-control-lg " placeholder="Telephone Number " data-toggle="tooltip" title="Contact Number" data-content="Contact number">
+                                            </div>
+                                            <div class="form-group ">
+                                                <textarea class="form-control " name="message " placeholder="your message here " aria-label="your message " aria-describedby="message " rows="3 "></textarea>
+                                            </div>
+                                            <input type="submit " value="submit " class="btn btn-outline-light btn-block ">
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!--EXPLORE HEAD-->
+
+        <section class="parallax container-fluid explore-head-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2 text-center">
+                        <div class="p-5">
+                            <h1 class="display-4">Explore</h1>
+                            <p class="lead d-none d-sm-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                            <a href="# " class="btn btn-outline-secondary">Find out More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+
+        <div class="sp-globe">
+            <h1 class="frame-1 text-center display-5">Check some other activities</h1>
+
+        </div>
+        <!--EXPLORE SECTION-->
+        <div class="container cont2 d-none d-sm-block">
+            <div class="row">
+                <section class="col-4">
+                    <div id="accordion">
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link h5 text-center" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">                               
+                                        <div class="card-header" id="headingOne">  <h5 class="mb-0 text-center">Snorkle </h5> </div>
+
+                                    </button>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body d-flex flex-column justify-content-center container-fluid" id="try1">
+                                    <span id="content"><img src="./img/snr.jpg" height="50%" width="100%" class="img-fluid align-self-center"></span>
+                                    <p class="d-none d-md-block p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsam similique tenetur non eaque.
+                                    </p>
+                                    <button class="btn-primary btn boton w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                 </button>
+                                </div>
+                            </div>
+
+                            <div class="card bg-dark">
+
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <div class="card-header" id="headingTwo">
+                                                        <h5 class="mb-0 text-center">Air jumping   </h5>
+                                                    </div>
+                  </button>
+
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body d-flex flex-column">
+                                        <p class="d-none d-md-block">aperiam ex. Temporibus officiis dolorem libero ratione assumenda atque facere est voluptas vero ut?
+                                        </p>
+                                        <span id="content2"><img src="./img/par.jpg" height="300" width="600" class="img-fluid"></span>
+                                        <button class="btn-primary btn boton w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card bg-dark">
+
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <div class="card-header" id="headingThree">
+                                                        <h5 class="mb-0 text-center"> rafting </h5>
+                                                    </div>
+                  </button>
+
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body d-flex flex-column">
+                                        <span id="content3"><img src="./img/raf.jpg "height="300" width="600" class="img-fluid"></span>
+                                        <p class="d-none d-md-block"> laudantium obcaecati, autem consequatur totam ducimus suscipit. Voluptate voluptatibus veniam magni, provident quae voluptatum!
+                                        </p>
+                                        <button class="btn-primary btn boton  w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+
+
+
+
+                <section class="col-4">
+                    <div id="accordion2">
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                            <div class="card-header" id="headingOne2">
+                                                    <h5 class="mb-0 text-center">  Snorkle   </h5>
+                                                </div>
+                      </button>
+
+
+                            <div id="collapseOne2" class="collapse " aria-labelledby="headingOne2" data-parent="#accordion2">
+                                <div class="card-body d-flex flex-column justify-content-center container-fluid" id="try1">
+                                    <span id="content"><img src="./img/snr.jpg" height="300" width="600" class="img-fluid float-left align-self-start"></span>
+                                    <p class="d-none d-md-block float-right"> Perspiciatis molestias similique sequi atque vero mollitia cumque totam repellat! <br> Labore totam inventore aliquam voluptatibus suscipit?
+                                    </p>
+                                    <button type="button" class="btn-primary btn boton  w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The bestof the best packages for all type of bla bla">See
+    
+    
+    
+                        </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                            <div class="card-header" id="headingTwo2">
+                                                    <h5 class="mb-0 text-center">  Air jumping   </h5>
+                                                </div>
+                      </button>
+
+                            <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
+                                <div class="card-body d-flex flex-column">
+                                    <p class="d-none d-md-block">aperiam ex. Temporibus officiis dolorem libero ratione assumenda atque facere est voluptas vero ut?
+                                    </p>
+                                    <span id="content2"><img src="./img/par.jpg "height="300" width="600" class="img-fluid"></span>
+                                    <button class="btn-primary btn boton  w-100 mt-10" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                            <div class="card-header" id="headingThree2">
+                                                    <h5 class="mb-0 text-center">  rafting </h5>
+                                                </div>
+                      </button>
+
+                            <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordion2">
+                                <div class="card-body d-flex flex-column">
+                                    <span id="content3"><img src="./img/raf.jpg "height="300" width="600" class="img-fluid"></span>
+                                    <p class="d-none d-md-block">laudantium obcaecati, autem consequatur totam ducimus suscipit. Voluptate voluptatibus veniam magni, provident quae voluptatum!
+                                    </p>
+                                    <button class="btn-primary btn boton  w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section class="col-4">
+                    <div id="accordion3">
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne33">
+                                            <div class="card-header" id="headingOne3">
+                                                    <h5 class="mb-0 text-center">      Snorkle    </h5>
+                                                </div>
+                          </button>
+
+
+                            <div id="collapseOne3" class="collapse " aria-labelledby="headingOne3" data-parent="#accordion3">
+                                <div class="card-body d-flex flex-column justify-content-center container-fluid" id="try1">
+                                    <span id="content"><img src="./img/snr.jpg" height="300" width="600" class="img-fluid float-left align-self-start"></span>
+                                    <p class="d-none d-md-block float-right"><br> Perspiciatis molestias similique sequi atque vero mollitia cumque tottatibus suscipit?
+                                    </p>
+                                    <button type="button" class="btn-primary btn boton  w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The bestof the best packages for all type of bla bla">See
+        
+        
+        
+                            </button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
+                                            <div class="card-header" id="headingTwo3">
+                                                    <h5 class="mb-0 text-center">  Air jumping    </h5>
+                                                </div>
+                          </button>
+
+                            <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordion3">
+                                <div class="card-body d-flex flex-column">
+                                    <p class="d-none d-md-block">. Temporibus officiis dolorem libero ratione assumenda atque facere est voluptas vero ut?
+                                    </p>
+                                    <span id="content2"><img src="./img/par.jpg "height="300" width="600" class="img-fluid"></span>
+                                    <button class="btn-primary btn boton w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card bg-dark">
+
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+                                            <div class="card-header" id="headingThree3">
+                                                    <h5 class="mb-0 ">   rafting       </h5>
+                                                </div>
+                          </button>
+
+                            <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion3">
+                                <div class="card-body d-flex flex-column">
+                                    <span id="content3"><img src="./img/raf.jpg "height="300" width="600" class="img-fluid"></span>
+                                    <p class="d-none d-md-block">laudantium obcaecati, autem consequatur totam ducimus suscipit. Voluptate voluptatibus veniam magni, provident quae voluptatum!
+                                    </p>
+                                    <button class="btn-primary btn boton  w-100" data-toggle="popover" data-placement="bottom" title="standard checkups" data-content="The best of the best packages for all type of bla bla">See
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+            </div>
+
+            <hr>
+            <!--CREATE HEAD-->
+
+
+            <!--EXPLORE SECTION-->
+
+            <div class="sp-globe">
+                <h1 class="frame-1 text-center">Special Offers for Special Moments</h1>
+
+            </div>
+
+            <div class="container">
+                <div class="row ">
+                    <!-- TH1 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="thumbnail">
+                            <a href="#" class="">
+                                <div class="caption">
+                                    <h4 class="">Thumbnail Headline</h4>
+
+                                    <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+
+
+                                    </p>
+                                </div>
+                                <img src="./img/222.jpg" alt="..." class="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- TH2 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="thumbnail">
+                            <a href="#" class="">
+                                <div class="caption">
+                                    <h4 class="">Thumbnail Headline</h4>
+
+                                    <p class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+
+
+
+                                    </p>
+                                </div>
+                                <img src="./img/333.jpg" alt="..." class="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- TH2 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="thumbnail">
+                            <a href="#" class="">
+                                <div class="caption">
+                                    <h4 class="">Thumbnail Headline</h4>
+
+                                    <p class="">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+
+                                    </p>
+                                </div>
+                                <img src="./img/444.jpg" alt="..." class="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- TH4 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4 class="">Thumbnail Headline</h4>
+
+                                <p class="">
+
+                                    <a href="#" class="label label-default">Open</a>
+
+                                </p>
+                            </div>
+                            <img src="./img/555.jpg" alt="..." class="">
+                        </div>
+                    </div>
+
+                    <!-- TH5 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4 class="">Thumbnail Headline</h4>
+
+                                <p class="">
+
+                                    <a href="#" class="label label-default">Open</a>
+
+                                </p>
+                            </div>
+                            <img src="./img/666.jpg" alt="..." class="">
+                        </div>
+                    </div>
+
+
+                    <!-- TH6 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h4 class="">Thumbnail Headline</h4>
+
+                                <p class="">
+
+                                    <a href="#" class="label label-default">Open</a>
+
+                                </p>
+                            </div>
+                            <img src="./img/777.jpg" alt="..." class="">
+                        </div>
+                    </div>
+
+                    <!-- TH6 -->
+
+
+                </div>
+                <!--/row -->
+
+            </div>
+            <!-- end container -->
+            <hr>
+            <h1 id="otherServ" class="text-center">Check some other services</h1>
+
+
+
+            <div class="container opqcont text-center d-none d-md-block">
+                <div class="row">
+                    <ul class=" also d-flex flex-row">
+
+                        <li class="col-2">
+                            <a href=""> <img src="./img/hh.jpg" class="img-fluid">Horse Hiking</a>
+                        </li>
+
+                        <li class="col-2">
+                            <a href=""><img src="./img/x4.jpg" class="img-fluid">4x4</li>
+                        </a>
+                        <li class="col-2">
+                            <a href=""><img src="./img/yt.jpg" class="img-fluid">On the Sea</li>
+                        </a>
+
+                        <li class="col-2">
+                            <a href=""> <img src="./img/rs.jpg" class="img-fluid">Real State</li>
+                        </a>
+                        <li class="col-2">
+                            <a href=""><img src="./img/hk.jpg" class="img-fluid">Local Trips</li>
+                        </a>
+                        <li class="col-2">
+                            <a href=""> <img src="./img/mt.jpg" class="img-fluid">Medical Tourism</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="col-12 switchList d-md-none clearfix">
+                <ul class="">
+
+                    <li>
+                        <a href="" class="d-flex justify-content-between">Medical Tourism <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="d-flex justify-content-between">4x4 <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="d-flex justify-content-between">On the Sea <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="d-flex justify-content-between">Real State <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li>
+                        <a href="" class="d-flex justify-content-between">Local Trips <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li class="">
+                        <a href="#" class="d-flex justify-content-between">Horse Hiking <span class="fas fa-chevron-right"></span></a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+            <!--EXPLORE SECTION-->
+
+            <div class="jumbotron maincar2">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+
+
+
+
+            <!--SHARE HEAD-->
+
+            <div class="container p-0" id="accordion4">
+                <div class="card bg-dark p-0">
+                    <div class="card-header  ml-0 mr-0 p-0" id="headingOne3">
+                        <h5 class="text-center ml-0 mr-0">
+                            <button class="btn p-sm-0 m-sm-0 d-flex-flex-row" data-toggle="collapse" data-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5">
+                            <h1 class="mt-4 d-flex-flex-row badge badge-success ">Products &amp; Services </h1>
+                  </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne5" class="collapse" aria-labelledby="headingOne5" data-parent="#accordion4">
+                        <div class="card-body d-flex flex-column justify-content-center container-fluid" id="try1">
+                            <div class="container">
+
+
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam maiores laudantium, pariatur voluptatum quas doloribus provident quibusdam voluptatem sit illum?</p>
+
+                                <table id="table" class="table table-striped table-hover table-bordered table-sm table-responsive-md">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Item #</th>
+                                            <th scope="col">Product or Service</th>
+                                            <th scope="col">Price (ea.)</th>
+                                            <th scope="col">Retail Price (Case)</th>
+                                            <th scope="col">Case Discount</th>
+                                            <th scope="col">Wholesale Price</th>
+                                            <th scope="col">Wholesale Discount</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">100050</th>
+                                            <td>Lorem, ipsum.</td>
+                                            <td>$9.55 </td>
+                                            <td>$108.87</td>
+                                            <td>$5.73</td>
+                                            <td>$103.14</td>
+                                            <td>$11.46</td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <th scope="row">100043</th>
+                                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                                            <td>$100.00 </td>
+                                            <td>$1,140.00</td>
+                                            <td>$60.00</td>
+                                            <td>$1,080.00</td>
+                                            <td>$120.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100013</th>
+                                            <td class="table-success">Lorem ipsum dolor sit amet.</td>
+                                            <td>$9.49 </td>
+                                            <td>$108.19</td>
+                                            <td>$5.69</td>
+                                            <td>$102.49</td>
+                                            <td>$11.39</td>
+                                        </tr>
+                                        <tr class="bg-danger text-light">
+                                            <th scope="row">100041</th>
+                                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                                            <td>$6.00 </td>
+                                            <td>$68.40</td>
+                                            <td>$3.60</td>
+                                            <td>$64.80</td>
+                                            <td>$7.20</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100051</th>
+                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                                            <td>$55.00 </td>
+                                            <td>$627.00</td>
+                                            <td>$33.00</td>
+                                            <td>$594.00</td>
+                                            <td>$66.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100046</th>
+                                            <td>Lorem, ipsum dolor.</td>
+                                            <td>$65.00 </td>
+                                            <td>$741.00</td>
+                                            <td>$39.00</td>
+                                            <td>$702.00</td>
+                                            <td>$78.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100044</th>
+                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                            <td>$6.44 </td>
+                                            <td>$73.42</td>
+                                            <td>$3.86</td>
+                                            <td>$69.55</td>
+                                            <td>$7.73</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100030</th>
+                                            <td>Lorem ipsum dolor sit.</td>
+                                            <td>$9.56 </td>
+                                            <td>$108.98</td>
+                                            <td>$5.74</td>
+                                            <td>$103.25</td>
+                                            <td>$11.47</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100045</th>
+                                            <td>Lorem ipsum dolor sit amet consectetur.</td>
+                                            <td>$7.75 </td>
+                                            <td>$88.35</td>
+                                            <td>$4.65</td>
+                                            <td>$83.70</td>
+                                            <td>$9.30</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100053</th>
+                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                                            <td>$9.12 </td>
+                                            <td>$103.97</td>
+                                            <td>$5.47</td>
+                                            <td>$98.50</td>
+                                            <td>$10.94</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100040</th>
+                                            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
+                                            <td>$8.14 </td>
+                                            <td>$92.80</td>
+                                            <td>$4.88</td>
+                                            <td>$87.91</td>
+                                            <td>$9.77</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100005</th>
+                                            <td>Lorem, ipsum dolor.</td>
+                                            <td>$8.73 </td>
+                                            <td>$99.52</td>
+                                            <td>$5.24</td>
+                                            <td>$94.28</td>
+                                            <td>$10.48</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100039</th>
+                                            <td>Lorem ipsum dolor sit.</td>
+                                            <td>$15.00 </td>
+                                            <td>$171.00</td>
+                                            <td>$9.00</td>
+                                            <td>$162.00</td>
+                                            <td>$18.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100054</th>
+                                            <td>Lorem, ipsum dolor.</td>
+                                            <td>$75.00 </td>
+                                            <td>$855.00</td>
+                                            <td>$45.00</td>
+                                            <td>$810.00</td>
+                                            <td>$90.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100005</th>
+                                            <td>Lorem, ipsum dolor.</td>
+                                            <td>$8.73 </td>
+                                            <td>$99.52</td>
+                                            <td>$5.24</td>
+                                            <td>$94.28</td>
+                                            <td>$10.48</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100039</th>
+                                            <td>Lorem ipsum dolor sit.</td>
+                                            <td>$15.00 </td>
+                                            <td>$171.00</td>
+                                            <td>$9.00</td>
+                                            <td>$162.00</td>
+                                            <td>$18.00</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">100054</th>
+                                            <td>Lorem, ipsum dolor.</td>
+                                            <td>$75.00 </td>
+                                            <td>$855.00</td>
+                                            <td>$45.00</td>
+                                            <td>$810.00</td>
+                                            <td>$90.00</td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!--SHARE SECTION-->
+
+
+
+
+
+
+
+
+
+
+
+            <section class="share-head-section" class="bg-primary">
+                <div class="container">
+                    <div class="row">
+                        <div class="main-banner" id="main-banner">
+                            <div class="imgban" id="imgban3"></div>
+                            <div class="imgban" id="imgban2"></div>
+                            <div class="imgban" id="imgban1"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+
+
+            <div class="container cont4 d-none d-md-block">
+                <div class="row w-100 prim">
+                    <ul class="col-4 col-sm-3 col-md-2 d-flex flex-column">
+                        <a href="#">
+                            <li> <i class="fas fa-map-marker-alt"></i> Location </li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fas fa-calendar-alt"></i> Schedule</li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fas fa-building"></i>Office</li>
+                        </a>
+
+                    </ul>
+                    <hr class="hr d-none d-md-block">
+                    <div class="snd col-4 col-sm-4 col-md-5">
+
+                        <ul class="d-flex flex-column">
+                            <a href="#">
+                                <li>About</li>
+                            </a>
+                            <a href="#">
+                                <li>Contact</li>
+                            </a>
+                            <a href="#">
+                                <li> Feedback<i class="fas fa-link"></i></li>
+                            </a>
+                            <a href="#">
+                                <li>Language</li>
+                            </a>
+                        </ul>
+
+                    </div>
+                    <hr class="hr2 d-none d-md-block">
+                    <hr>
+                    <div class="col-12 col-sm-5 col-md-4 flex-wrap">
+                        <div class="row">
+                            <div class="col-12 social d-flex flex-row">
+                                <div class="fa-layers fa-fw fa-4x mr-3">
+                                    <a href="#"> <i class="fab fa-facebook-square text-white" data-fa-transform="shrink-8"></i></a>
+                                </div>
+                                <div class="fa-layers fa-fw fa-4x mr-3">
+                                    <i class="fab fa-twitter-square text-white" data-fa-transform="shrink-8"></i>
+                                </div>
+                                <div class="fa-layers fa-fw fa-4x mr-3 ">
+                                    <i class="fab fa-linkedin text-white" data-fa-transform="shrink-8"></i>
+                                </div>
+                                <div class="fa-layers fa-fw fa-4x mr-3">
+                                    <i class="fab fa-instagram" data-fa-transform="shrink-8"></i>
+                                </div>
+                            </div>
+
+                            <ul class="row for">
+                                <a href="#">
+                                    <li> <i class="fas fa-comments"></i>Customer´s Forum</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="container cont4 d-md-none">
+                <div class="row w-100 prim">
+                    <ul class="col-5 d-flex flex-column">
+                        <a href="#">
+                            <li> <i class="fas fa-map-marker-alt"></i> Location </li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fas fa-calendar-alt"></i> Schedule</li>
+                        </a>
+                        <a href="#">
+                            <li> <i class="fas fa-building"></i>Office</li>
+                        </a>
+
+                    </ul>
+                    <hr class="col-1 hr p-0 m-0">
+
+                    <div class="col-5 d-flex flex-row clearfix">
+
+                        <ul class="d-flex flex-column">
+                            <a href="#">
+                                <li>About</li>
+                            </a>
+                            <a href="#">
+                                <li>Contact</li>
+                            </a>
+                            <a href="#">
+                                <li> Feedback<i class="fas fa-link"></i></li>
+                            </a>
+                            <a href="#">
+                                <li>Language</li>
+                            </a>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <hr class="hrr">
+                <div class="container">
+                    <div class="col-12  flex-wrap">
+                        <div class="row">
+                            <div class="col-12 d-flex flex-row">
+                                <div class="fa-layers fa-fw fa-4x mr-3">
+                                    <a href="#"> <i class="fab fa-facebook-square text-white" data-fa-transform="shrink-8"></i></a>
+                                </div>
+                                <div class="fa-layers fa-fw fa-4x mr-3">
+                                    <i class="fab fa-twitter-square text-white" data-fa-transform="shrink-8"></i>
+                                </div>
+                                <div class="fa-layers fa-fw fa-4x mr-3 ">
+                                    <i class="fab fa-linkedin text-white" data-fa-transform="shrink-8"></i>
+                                </div>
+                                <div class="fa-layers fa-fw fa-4x mr-3">
+                                    <i class="fab fa-instagram" data-fa-transform="shrink-8"></i>
+                                </div>
+                            </div>
+
+                            <ul class="row for">
+                                <a href="#">
+                                    <li> <i class="fas fa-comments"></i>Customer´s Forum</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Main footer-->
+
+            <footer id="main-footer" class="bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <div class="oy-4">
+                                <h1 class="h3"><span>Tourism Agency</span></h1>
+                                <p>copyright &copy;2017</p>
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+            <!--CONTACT MODAL-->
+
+            <div class="modal fade text-dark" id="contactModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="contactModalTitle">
+                                Contact us
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">Name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Email</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Name</label>
+                                    <textarea class="form-control"></textarea>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary btn-block">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/utils/Draggable.min.js"></script>
+        <script src="./js/js.js"></script>
+        <script src="./js/TweenMax.min.js"></script>
 </body>
 
 </html>
