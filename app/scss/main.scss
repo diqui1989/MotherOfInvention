@@ -836,3 +836,13 @@
  [aria-expanded="true"] .aup {
      display: inline-block;
  }
+ 
+ @media screen and (max-width: 380px) {
+     .fragment2 {
+         width: 70%;
+     }
+     #img-wrapper {
+         width: 70%;
+         left: -60px;
+     }
+ }
